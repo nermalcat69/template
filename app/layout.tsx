@@ -10,6 +10,7 @@ import { Hello } from "@/components/globals/hello"
 
 export const metadata: Metadata = {
   title: {
+    default: siteConfig.name,
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
