@@ -10,10 +10,10 @@ export default function Info() {
     <Accordion type="single" collapsible>
       <AccordionItem value="item-1">
         <AccordionTrigger>
-          How do i utilize this Template ?
+          Which packages does this template use?
         </AccordionTrigger>
         <AccordionContent>
-          hello pp
+          It uses Nextjs(with its dependencies and turbopack), Millionjs, React-icons, Lucide-react and shadcn ui with radix ui
         </AccordionContent>
       </AccordionItem>
 
@@ -22,25 +22,16 @@ export default function Info() {
           How do i utilize this Template ?
         </AccordionTrigger>
         <AccordionContent>
-          Hello pp
+          Just <span className="font-semibold">git clone https://github.com/nermalcat69/template</span> in your terminal
         </AccordionContent>
       </AccordionItem>
 
       <AccordionItem value="item-3">
         <AccordionTrigger>
-          How do i utilize this Template ?
+          How can i contribute?
         </AccordionTrigger>
         <AccordionContent>
-          Hello pp.
-        </AccordionContent>
-      </AccordionItem>
-
-      <AccordionItem value="item-4">
-        <AccordionTrigger>
-          How do i utilize this Template ?
-        </AccordionTrigger>
-        <AccordionContent>
-          Hello pp.
+          open your eyes and check the top right corner on the webpage :3
         </AccordionContent>
       </AccordionItem>
     </Accordion>
